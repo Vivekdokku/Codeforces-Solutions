@@ -1,0 +1,1 @@
+min(r,R)-max(l,L)
