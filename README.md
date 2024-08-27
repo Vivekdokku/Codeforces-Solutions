@@ -19,8 +19,9 @@ To access the solutions:
 - Navigate to the `A-problems` folder.
 - Each file within this folder corresponds to a specific A-level problem from Codeforces.
 
-Example:
-```bash
-cd A-problems/
 
-Note: The solutions in this repository are my own work, accumulated through both contests and individual problem-solving. I am continuously learning and improving, and I only share solutions that I have personally solved.
+
+## Note
+This repository is a collection of solutions and is not affiliated with Codeforces. The solutions that are provided  in this repository are my own work, accumulated through both contests and individual problem-solving. I am continuously learning and improving, and I only share solutions that I have personally solved.
+
+Feel free to let me know if a solution is incorrect otherwise has a better solution
