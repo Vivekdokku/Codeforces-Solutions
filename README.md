@@ -8,7 +8,7 @@ Welcome to the Codeforces Solutions repository. This repository contains solutio
 - **B-problems**: Solutions for the B-level problems.
 - **C-problems**: Solutions for the C-level problems.
 - **D-problems**: Solutions for the D-level problems.
-- **contests**: Contains solutions organized by contest.
+- **contests**: Contains solutions organized by codeforces.
 
 ## A-Problems
 
@@ -22,3 +22,5 @@ To access the solutions:
 Example:
 ```bash
 cd A-problems/
+
+Note: The solutions in this repository are my own work, accumulated through both contests and individual problem-solving. I am continuously learning and improving, and I only share solutions that I have personally solved.
