@@ -24,17 +24,18 @@ ll solve(vll v,ll k){
 }
 
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    ll t;
-    cin >> t;
-    while(t--) {
-        ll n,k;
-        cin>>n>>k;
-        vll v(n);
-        for(ll i=0;i<n;i++) cin>>v[i];
-        ll ans = solve(v,k);
-        cout<<ans<<endl;
+    int a[30],c=0;
+    for(int i=0 ;i<30;i++){
+        a[i]=29-i; 
     }
-    return 0;
+    for(int i=0;i<=29;i++){
+        for(int j=0;j<=30-i-2;j++){
+            if(a[j]>a[j+1]) {
+                
+                swap(a[j],a[j+1]);
+                c++;
+                }
+        }
+    }
+    cout<<c<<endl;
 }

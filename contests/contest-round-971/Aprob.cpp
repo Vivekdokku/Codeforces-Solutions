@@ -6,15 +6,18 @@ typedef vector<int> vi;
 typedef vector<long long> vll;
 typedef vector<string> vs;
 
-int main()
-{
+void viveksolve(){
+    ll a,b;
+    cin>>a>>b;
+    cout<<b-a<<endl;
+}
+int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    ll input;
-    cin>>input;
-    if(input%2==0)
-    cout<<1<<endl;
-    else
-    cout<<2<<endl;
+    ll t;
+    cin >> t;
+    while(t--) {
+        viveksolve();
+    }
     return 0;
 }
